@@ -1,0 +1,6 @@
+ENCUT = 360
+ISMEAR = 0
+SIGMA = 0.05
+
+ICHARG = 11 #read the CHGCAR file from the previous run
+LORBIT = 11 #prints out the DOSCAR and PROCAR

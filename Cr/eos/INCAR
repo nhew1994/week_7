@@ -1,0 +1,9 @@
+ENCUT = 400
+ISMEAR = 0
+SIGMA = 0.05
+
+IBRION = 2 #ionic relaxation (conjugate gradient algorithm)
+ISIF = 4 #relax positions, and cell shape
+NSW = 100 #maximum number of ionic steps
+EDIFF  = 1E-04 #break condition for the electronic SC-loop
+EDIFFG = -0.01 #break condition for the ionic relaxation loop. Negative value refers to forces. 

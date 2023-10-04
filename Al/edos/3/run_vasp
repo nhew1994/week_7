@@ -1,0 +1,10 @@
+#!/bin/bash
+#SBATCH --nodes=1
+#SBATCH --ntasks=24
+#SBATCH --mem=8GB
+#SBATCH --time=00:10:00
+#SBATCH --partition=open
+#SBATCH --job-name=matse580
+
+module load vasp
+srun vasp_std > vasp.log
